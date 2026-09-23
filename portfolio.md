@@ -2,14 +2,14 @@
 layout: default
 title: Portfolio
 permalink: /portfolio/
-description: "Higher end original fiber art pieces available for sale."
+description: "Original fiber art pieces"
 ---
 
 <div class="portfolio-page container">
 
   <div class="portfolio-header">
     <h1>Portfolio</h1>
-    <p class="portfolio-intro">Original pieces available for purchase. Each one is handmade by me — if something catches your eye, reach out at <a href="mailto:info@rhisfiberart.com">info@rhisfiberart.com</a>.</p>
+    <p class="portfolio-intro">Original pieces available for purchase, reach out at <a href="mailto:info@rhisfiberart.com">info@rhisfiberart.com</a>.</p>
   </div>
 
   <div class="portfolio-grid">
@@ -22,12 +22,12 @@ description: "Higher end original fiber art pieces available for sale."
 
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/yarn-ball.jpg' | relative_url }}" alt="Sample piece placeholder">
+        <img src="{{ '/assets/images/IMG_3188.jpeg' | relative_url }}" alt="Handwoven shirt">
       </div>
       <div class="portfolio-info">
-        <h2 class="portfolio-title">Sample Piece Title</h2>
-        <p class="portfolio-desc">A short description of the piece — materials used, technique, dimensions, or anything else you'd like a buyer to know.</p>
-        <p class="portfolio-price">$000</p>
+        <h2 class="portfolio-title">Handmade 1</h2>
+        <p class="portfolio-desc">This shirt was hands-on from bourette silk, woven on a ridged heddle loom, and dyed using locally grown madder root. It will be on display at the Wild Wild Weft art show at The Lewisville Grand Gallery in Lewisville  TX from Oct 3rd to Nov 7th 2017</p>
+        <p class="portfolio-price">Not For Sale</p>
       </div>
     </article>
 
