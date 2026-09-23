@@ -21,6 +21,7 @@
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
         <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}class="active"{% endif %}>Blog</a>
         <a href="{{ '/gallery/' | relative_url }}" {% if page.url contains '/gallery' %}class="active"{% endif %}>Gallery</a>
+        <a href="{{ '/portfolio/' | relative_url }}" {% if page.url contains '/portfolio' %}class="active"{% endif %}>Portfolio</a>
       </nav>
     </div>
   </header>
@@ -31,7 +32,8 @@
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <p>{{ site.author.name }}, {{ site.author.bio }}</p>    <p>Contact me at <a href="mailto:info@rhisfiberart.com">info@rhisfiberart.com</a></p>
+      <p>{{ site.author.name }}, {{ site.author.bio }}</p>
+      <p>Contact me at <a href="mailto:info@rhisfiberart.com">info@rhisfiberart.com</a></p>
       <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
     </div>
   </footer>
