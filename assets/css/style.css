@@ -140,12 +140,14 @@ h1, h2, h3, h4 {
   color: var(--color-bg);
   line-height: 1.8;
 }
-   .site-footer a {
-     color: var(--color-bg);
-     text-decoration: underline;
-   }
 
-   .site-footer a:hover { opacity: 0.8; }
+.site-footer a {
+  color: var(--color-bg);
+  text-decoration: underline;
+}
+
+.site-footer a:hover { opacity: 0.8; }
+
 /* =========================================================
    BUTTONS
    ========================================================= */
@@ -733,4 +735,86 @@ h1, h2, h3, h4 {
   .gallery-grid, .gallery-grid--large {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* =========================================================
+   PORTFOLIO PAGE
+   ========================================================= */
+.portfolio-page { padding: 3rem 1.5rem; }
+
+.portfolio-header {
+  max-width: 640px;
+  margin-bottom: 3rem;
+}
+
+.portfolio-header h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-intro {
+  color: var(--color-muted);
+  font-size: 1rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.portfolio-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-img-wrap {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--color-border);
+}
+
+.portfolio-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-img-wrap img {
+  transform: scale(1.03);
+}
+
+.portfolio-info {
+  padding: 1.25rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.portfolio-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-desc {
+  color: var(--color-muted);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.portfolio-price {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--color-accent-dk);
+}
+
+@media (max-width: 500px) {
+  .portfolio-grid { grid-template-columns: 1fr; }
 }
