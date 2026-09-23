@@ -21,7 +21,18 @@ description: "Original fiber art pieces"
          ============================================================ -->
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/IMG_3254.jpeg' | relative_url }}" alt="Handwoven shirt">
+        <img src="{{ '/assets/images/IMG_3250.jpeg' | relative_url }}" alt="Tapestry">
+      </div>
+      <div class="portfolio-info">
+        <h2 class="portfolio-title">Connecting Thread</h2>
+        <p class="portfolio-desc">A handwoven cotton tapestry, eco printed with pecan leaves, all connected with handspun silk switching dyed with locally grown madder root. The red thread of life wraps and connects the prints the way it connects us all.</p>
+        <p class="portfolio-price">$200</p>
+      </div>
+    </article>
+    
+    <article class="portfolio-item">
+      <div class="portfolio-img-wrap">
+        <img src="{{ '/assets/images/IMG_3254.jpeg' | relative_url }}" alt="Scarf">
       </div>
       <div class="portfolio-info">
         <h2 class="portfolio-title">New Ecosystems</h2>
@@ -30,7 +41,17 @@ description: "Original fiber art pieces"
       </div>
     </article>
 
-
+    <article class="portfolio-item">
+      <div class="portfolio-img-wrap">
+        <img src="{{ '/assets/images/IMG_3270.jpeg' | relative_url }}" alt="Cloth Basket">
+      </div>
+      <div class="portfolio-info">
+        <h2 class="portfolio-title">Winter Woods</h2>
+        <p class="portfolio-desc">A basket to keep your projects that are preparing to bloom. The interior is felted Gotland wool, the exterior is eco printed cotton, and the stitching is hand spun silk thread.</p>
+        <p class="portfolio-price">$185</p>
+      </div>
+    </article>
+    
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
         <img src="{{ '/assets/images/IMG_3188.jpeg' | relative_url }}" alt="Handwoven shirt">
