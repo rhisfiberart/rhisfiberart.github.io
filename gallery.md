@@ -24,7 +24,22 @@ permalink: /gallery/
 #       - baskets
 #       - sold
 # ============================================================
+
 extra_images:
+  - image: assets/images/IMG_3144.jpeg
+    caption: "My First attempt at indigo dyeing, done on handspun silk."
+    tags:
+      - Dyeing
+      - Silk
+  - image: assets/images/IMG_3272.jpeg
+    caption: "Yellow onion skin dye on wool yarn base."
+    tags:
+      - Dyeing
+  - image: assets/images/IMG_3298.jpeg
+    caption: "Clay buttons made with foraged clay and pit fired on the beach."
+    tags:
+      - Sewing
+---
 ---
 
 <div class="gallery-page container">
