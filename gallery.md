@@ -2,6 +2,29 @@
 layout: default
 title: Gallery
 permalink: /gallery/
+
+# ============================================================
+# STANDALONE GALLERY PHOTOS (not tied to a blog post)
+# ------------------------------------------------------------
+# Copy one block below for each photo. `caption` and `link` and
+# `tags` are all optional — leave any of them out if you don't
+# need them. `tags` work exactly like a post's tags: they show
+# up in the filter dropdown above the gallery and let visitors
+# narrow the grid down to just that tag.
+#
+# extra_images:
+#   - image: assets/images/my-photo.jpg
+#     caption: "Optional caption here"
+#     tags:
+#       - scarves
+#   - image: assets/images/another-photo.jpg
+#     caption: "Another optional caption"
+#     link: /blog/2026/04/10/my-post/   # optional: click goes here instead of opening full size
+#     tags:
+#       - baskets
+#       - sold
+# ============================================================
+extra_images:
 ---
 
 <div class="gallery-page container">
@@ -17,6 +40,40 @@ permalink: /gallery/
   {% assign known_labels  = "" | split: "," %}
   {% assign tag_hits      = "" | split: "," %}
   {% assign counted_paths = "" | split: "" %}
+
+  {% comment %}
+    Standalone photos from this page's own `extra_images` front matter
+    are counted the same way as a post's images/tags, so they show up
+    in the filter dropdown and the "All Tags" total.
+    ------------------------------------------------------------------
+  {% endcomment %}
+  {% if page.extra_images %}
+    {% for item in page.extra_images %}
+      {% assign new_imgs = "" | split: "" %}
+      {% assign img_path = item.image | prepend: "/" %}
+      {% unless counted_paths contains img_path %}
+        {% assign counted_paths = counted_paths | push: img_path %}
+        {% assign new_imgs = new_imgs | push: item.image %}
+      {% endunless %}
+
+      {% if item.tags %}
+        {% for raw_tag in item.tags %}
+          {% assign clean_tag = raw_tag | strip %}
+          {% assign tag_slug = clean_tag | slugify %}
+          {% if tag_slug != "" %}
+            {% unless known_slugs contains tag_slug %}
+              {% assign clean_label = clean_tag | capitalize %}
+              {% assign known_slugs  = known_slugs | push: tag_slug %}
+              {% assign known_labels = known_labels | push: clean_label %}
+            {% endunless %}
+            {% for img in new_imgs %}
+              {% assign tag_hits = tag_hits | push: tag_slug %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
   {% for post in site.posts %}
     {% assign post_imgs = "" | split: "" %}
@@ -134,6 +191,47 @@ permalink: /gallery/
       {% endunless %}
     {% endfor %}
     {% assign shown_paths = "" | split: "" %}
+
+    {% comment %}Standalone photos added via this page's `extra_images` front matter, shown first{% endcomment %}
+    {% if page.extra_images %}
+      {% for item in page.extra_images %}
+        {% assign img_path = item.image | prepend: "/" %}
+        {% unless shown_paths contains img_path %}
+          {% assign shown_paths = shown_paths | push: img_path %}
+
+          {% assign item_tag_slugs = "" | split: "" %}
+          {% if item.tags %}
+            {% for raw_tag in item.tags %}
+              {% assign tag_slug = raw_tag | strip | slugify %}
+              {% if tag_slug != "" %}
+                {% assign item_tag_slugs = item_tag_slugs | push: tag_slug %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% assign item_tags_attr = item_tag_slugs | join: " " %}
+
+          <div class="gallery-item{% if item.link %} gallery-item--linked{% endif %}" data-tags="{{ item_tags_attr }}">
+            {% if item.link %}
+              <a href="{{ item.link | relative_url }}"{% if item.caption %} title="{{ item.caption }}"{% endif %}>
+                <img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: 'Gallery photo' }}" loading="lazy">
+                {% if item.caption %}
+                  <div class="gallery-overlay">
+                    <span class="gallery-overlay-text">{{ item.caption }}</span>
+                  </div>
+                {% endif %}
+              </a>
+            {% else %}
+              <img src="{{ item.image | relative_url }}" alt="{{ item.caption | default: 'Gallery photo' }}" loading="lazy">
+              {% if item.caption %}
+                <div class="gallery-overlay">
+                  <span class="gallery-overlay-text">{{ item.caption }}</span>
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
 
     {% comment %}Post-linked images, newest post first{% endcomment %}
     {% for post in site.posts %}
