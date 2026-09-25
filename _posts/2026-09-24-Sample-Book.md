@@ -11,7 +11,7 @@ images:
 - assets/images/IMG_3148.jpeg
 ---
 
-In my opinion, the hardest part of anything is record keeping, and it's a very important part of natural dyeing if you want any idea how you did something after the fact. I recently did a bunch of experimental dyeing for a native and invasive species project. Looking at all of those yarns and the few not-very-helpful notes I had taken, I realized I needed a better system moving forward.
+In my opinion, the hardest part of anything is record keeping, and it's a very important part of natural dyeing if you want any idea how you did something after the fact. I recently did a bunch of experimental dyeing for a native and invasive species project. Looking at all of those yarns and the few not very helpful notes I had taken, I realized I needed a better system moving forward.
 
 ![Photo of a lineup of naturally dyed yarn, mostly neutrals with one bright red.](/assets/images/IMG_3104.jpeg)
 
