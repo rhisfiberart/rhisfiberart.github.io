@@ -85,7 +85,7 @@ Use the path `assets/images/your-photo.jpg` wherever a photo path is needed in t
 
 ## 3. Adding Standalone Gallery Photos (not tied to a post)
 
-Open the file `gallery.md`. At the top you'll see the front matter (the section between the `---` lines). Add photos like this:
+Open the file `gallery.md`. At the top you'll see the front matter (the section between the `---` lines), with an `extra_images:` list already there. Add a photo by copying one block like this under it:
 
 ```yaml
 ---
@@ -95,11 +95,27 @@ permalink: /gallery/
 extra_images:
   - image: assets/images/my-photo.jpg
     caption: "Optional caption here"
+    tags:
+      - scarves
   - image: assets/images/another-photo.jpg
     caption: "Another optional caption"
-    link: /blog/2026/04/10/my-post/   ← optional: click takes user to this URL
+    link: /blog/2026/04/10/my-post/   ← optional: click opens this URL instead of just showing the photo full size
+    tags:
+      - baskets
+      - sold
 ---
 ```
+
+**What each field means:**
+
+| Field | Required? | What it does |
+|-------|-----------|--------------|
+| `image` | Yes | The photo's path, same as elsewhere: `assets/images/your-photo.jpg` |
+| `caption` | No | Text shown when you hover over the photo |
+| `link` | No | Clicking the photo opens this URL (e.g. a blog post) instead of nothing |
+| `tags` | No | Same as post tags — lets visitors filter the gallery down to just this tag with the dropdown at the top of the page |
+
+The photo shows up in the gallery grid and, if it has tags, in the filter dropdown, exactly like a blog post's photos do — without needing a blog post at all.
 
 Click **Edit** (the pencil icon), make your changes, then **Commit changes**.
 
