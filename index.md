@@ -2,7 +2,7 @@
 layout: home
 hero_title: "Rhi's Fiber Art"
 hero_subtitle: "Exploring all things fiber art!"
-hero_image: assets/images/stamp-loom-only-white.png
+hero_image: assets/images/loom-only-offwhite-transparent.png
 ---
 
 Welcome! I'm a fiber artist spinning, weaving, slow stitching and natural dyeing. This is where I share my projects and process.
