@@ -33,7 +33,7 @@ description: "Original fiber art pieces"
       <div class="portfolio-info">
         <h2 class="portfolio-title">Connecting Thread</h2>
         <p class="portfolio-desc">A handwoven cotton tapestry, eco printed with pecan leaves, all connected with handspun silk stitching dyed with locally grown madder root. The red thread of life wraps and connects the prints the way it connects us all.</p>
-        <p class="portfolio-price">$200</p>
+        <p class="portfolio-price">$150</p>
       </div>
     </article>
 
@@ -44,7 +44,7 @@ description: "Original fiber art pieces"
       <div class="portfolio-info">
         <h2 class="portfolio-title">New Ecosystems</h2>
         <p class="portfolio-desc">This scarf represents the tension between native and invasive species in urban ecosystems. The warp was dyed with native Texas species: pecan husks, oak galls, and Turk's cap leaves. The weft was dyed with invasive species: nandina, tree of heaven, and privet. In places the invasive species have begun encroaching on the warp as well. All dye plants were responsibly gathered from public spaces like parks and parking lots.</p>
-        <p class="portfolio-price">$175</p>
+        <p class="portfolio-price">$125</p>
       </div>
     </article>
 
@@ -55,7 +55,7 @@ description: "Original fiber art pieces"
       <div class="portfolio-info">
         <h2 class="portfolio-title">Winter Woods</h2>
         <p class="portfolio-desc">A basket for projects that are preparing to bloom. The interior is felted Gotland wool, the exterior is eco printed cotton, and the stitching is handspun silk thread.</p>
-        <p class="portfolio-price">$185</p>
+        <p class="portfolio-price">$90</p>
       </div>
     </article>
 
