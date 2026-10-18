@@ -3,6 +3,7 @@ layout: post
 title: "Weaving with Handspun"
 date: 2026-05-28
 cover_image: assets/images/IMG_1992.jpeg
+image: assets/images/IMG_1992.jpeg
 tags:
   - weaving
 images:

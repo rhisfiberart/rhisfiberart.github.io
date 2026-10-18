@@ -3,6 +3,7 @@ layout: post
 title: "Tree of Heaven"
 date: 2026-04-27
 cover_image: assets/images/IMG_1983.jpeg
+image: assets/images/IMG_1983.jpeg
 tags:
   - dyeing
   - invasives

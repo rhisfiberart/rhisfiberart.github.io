@@ -3,6 +3,7 @@ layout: post
 title: "Spinning silk on a Charkha"
 date: 2026-04-14
 cover_image: assets/images/IMG_1895.jpeg
+image: assets/images/IMG_1895.jpeg
 tags:
   - spinning
   - silk

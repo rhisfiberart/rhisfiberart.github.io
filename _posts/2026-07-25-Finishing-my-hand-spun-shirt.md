@@ -3,6 +3,7 @@ layout: post
 title: "Finishing my hand spun shirt"
 date: 2026-07-25
 cover_image: assets/images/IMG_2201.jpeg
+image: assets/images/IMG_2201.jpeg
 tags:
   - dyeing
   - weaving
