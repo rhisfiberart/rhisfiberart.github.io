@@ -1,6 +1,7 @@
 ---
 title: "Invasive Species Presentation"
 cover_image: /assets/images/IMG_2086.jpeg
+image: assets/images/IMG_2086.jpeg
 tags:
   - invasives
   - dyeing

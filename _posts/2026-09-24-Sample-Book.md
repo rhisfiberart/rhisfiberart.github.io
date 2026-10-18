@@ -3,8 +3,10 @@ layout: post
 title: "Sample Book"
 date: 2026-09-24
 cover_image: assets/images/IMG_3165.jpeg
+image: assets/images/IMG_3165.jpeg
 tags:
   - Dyeing
+show_photos: false
 images:
 - assets/images/IMG_3104.jpeg
 - assets/images/IMG_3166.jpeg

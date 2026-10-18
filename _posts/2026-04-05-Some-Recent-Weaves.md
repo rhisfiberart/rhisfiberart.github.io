@@ -3,6 +3,7 @@ layout: post
 title: "Some Recent Weaves"
 date: 2026-04-05
 cover_image: assets/images/IMG_1643.JPG
+image: assets/images/IMG_1643.JPG
 tags:
   - weaving
   - ridgid heddle

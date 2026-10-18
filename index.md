@@ -1,5 +1,6 @@
 ---
 layout: home
+description: "Handspun, handwoven, and naturally dyed fiber art, plus process notes from the studio."
 hero_title: "Rhi's Fiber Art"
 hero_subtitle: "Exploring all things fiber art!"
 hero_image: assets/images/loom-only-offwhite-transparent.png

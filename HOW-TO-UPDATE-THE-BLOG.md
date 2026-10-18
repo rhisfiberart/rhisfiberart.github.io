@@ -33,6 +33,7 @@ layout: post
 title: "Your Post Title Here"
 date: 2026-04-10
 cover_image: assets/images/your-photo.jpg
+image: assets/images/your-photo.jpg
 tags:
   - weaving
   - color
@@ -55,8 +56,10 @@ More text under a heading.
 | `title` | Yes | The post title |
 | `date` | Yes | Must match the date in the filename |
 | `cover_image` | No | The main photo shown on the blog list and at the top of the post |
+| `image` | No | The photo used when the post is shared (text message, Instagram, Facebook). Use the same path as `cover_image` |
 | `tags` | No | Labels like `weaving`, `knitting` — shown as small pills on the post |
 | `images` | No | Extra photos shown in a grid at the bottom of the post AND in the Gallery |
+| `show_photos` | No | Set to `false` if the post already shows all its `images` inline and you don't want the "Photos" grid repeated at the bottom (they still appear in the Gallery) |
 
 ### Step 5 — Save / Commit
 Scroll to the bottom of the page, click **Commit new file**. The site updates in about 1 minute.

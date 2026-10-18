@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Gallery
+description: "Photos of handspun yarn, handwoven cloth, natural dye experiments, and finished pieces."
 permalink: /gallery/
 
 # ============================================================
@@ -277,7 +278,7 @@ extra_images:
           {% assign shown_paths = shown_paths | push: img_path %}
           <div class="gallery-item gallery-item--linked" data-tags="{{ post_tags_attr }}">
             <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-              <img src="{{ img_src | relative_url }}" alt="{{ post.title }}" loading="lazy">
+              <img src="{{ img_src | relative_url }}" alt="Photo {{ forloop.index }} from the post {{ post.title }}" loading="lazy">
               <div class="gallery-overlay">
                 <span class="gallery-overlay-text">{{ post.title }}</span>
               </div>

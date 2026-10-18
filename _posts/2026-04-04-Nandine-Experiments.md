@@ -3,6 +3,7 @@ layout: post
 title: "Nandina Experiments"
 date: 2026-04-04
 cover_image: assets/images/IMG_1867.jpeg
+image: assets/images/IMG_1867.jpeg
 tags:
   - dyeing
   - nandina

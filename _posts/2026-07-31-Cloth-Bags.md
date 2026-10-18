@@ -3,6 +3,7 @@ layout: post
 title: "Cloth Bags"
 date: 2026-07-31
 cover_image: assets/images/IMG_2926.jpeg
+image: assets/images/IMG_2926.jpeg
 tags:
   - slow stitch 
   - sewing

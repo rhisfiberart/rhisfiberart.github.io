@@ -28,40 +28,43 @@ description: "Original fiber art pieces"
          ============================================================ -->
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/IMG_3250.jpeg' | relative_url }}" alt="Tapestry">
+        <img src="{{ '/assets/images/IMG_3250.jpeg' | relative_url }}" alt="Handwoven cotton tapestry with eco-printed pecan leaves and red stitching">
       </div>
       <div class="portfolio-info">
         <h2 class="portfolio-title">Connecting Thread</h2>
         <p class="portfolio-desc">A handwoven cotton tapestry, eco printed with pecan leaves, all connected with handspun silk stitching dyed with locally grown madder root. The red thread of life wraps and connects the prints the way it connects us all.</p>
         <p class="portfolio-price">$150</p>
+        <a class="portfolio-inquire" href="mailto:info@rhisfiberart.com?subject=Inquiry%20about%20Connecting%20Thread">Inquire about this piece</a>
       </div>
     </article>
 
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/IMG_3254.jpeg' | relative_url }}" alt="Scarf">
+        <img src="{{ '/assets/images/IMG_3254.jpeg' | relative_url }}" alt="Handwoven scarf dyed with native and invasive Texas plants">
       </div>
       <div class="portfolio-info">
         <h2 class="portfolio-title">New Ecosystems</h2>
         <p class="portfolio-desc">This scarf represents the tension between native and invasive species in urban ecosystems. The warp was dyed with native Texas species: pecan husks, oak galls, and Turk's cap leaves. The weft was dyed with invasive species: nandina, tree of heaven, and privet. In places the invasive species have begun encroaching on the warp as well. All dye plants were responsibly gathered from public spaces like parks and parking lots.</p>
         <p class="portfolio-price">$125</p>
+        <a class="portfolio-inquire" href="mailto:info@rhisfiberart.com?subject=Inquiry%20about%20New%20Ecosystems">Inquire about this piece</a>
       </div>
     </article>
 
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/IMG_3270.jpeg' | relative_url }}" alt="Cloth Basket">
+        <img src="{{ '/assets/images/IMG_3270.jpeg' | relative_url }}" alt="Eco-printed cotton basket with felted wool interior">
       </div>
       <div class="portfolio-info">
         <h2 class="portfolio-title">Winter Woods</h2>
         <p class="portfolio-desc">A basket for projects that are preparing to bloom. The interior is felted Gotland wool, the exterior is eco printed cotton, and the stitching is handspun silk thread.</p>
         <p class="portfolio-price">$90</p>
+        <a class="portfolio-inquire" href="mailto:info@rhisfiberart.com?subject=Inquiry%20about%20Winter%20Woods">Inquire about this piece</a>
       </div>
     </article>
 
     <article class="portfolio-item">
       <div class="portfolio-img-wrap">
-        <img src="{{ '/assets/images/IMG_3188.jpeg' | relative_url }}" alt="Handwoven shirt">
+        <img src="{{ '/assets/images/IMG_3188.jpeg' | relative_url }}" alt="Handwoven shirt made from handspun bourette silk">
       </div>
       <div class="portfolio-info">
         <h2 class="portfolio-title">Handmade 1</h2>

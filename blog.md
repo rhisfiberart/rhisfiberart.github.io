@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+description: "Process notes on spinning, weaving, natural dyeing, and slow stitching."
 permalink: /blog/
 ---
 
