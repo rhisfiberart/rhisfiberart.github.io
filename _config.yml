@@ -1,6 +1,5 @@
 title: "Rhi's Fiber Art"
 description: "Handspun, handwoven, and naturally dyed fiber art, plus process notes from the studio."
-image: assets/images/IMG_3250.jpeg
 twitter:
   card: summary_large_image
 baseurl: ""
@@ -28,6 +27,10 @@ plugins:
 
 # Collections
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: assets/images/IMG_3250.jpeg
   - scope:
       path: ""
       type: "posts"
