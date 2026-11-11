@@ -3,6 +3,7 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 description: "Original fiber art pieces"
+published: false
 ---
 
 <div class="portfolio-page container">
